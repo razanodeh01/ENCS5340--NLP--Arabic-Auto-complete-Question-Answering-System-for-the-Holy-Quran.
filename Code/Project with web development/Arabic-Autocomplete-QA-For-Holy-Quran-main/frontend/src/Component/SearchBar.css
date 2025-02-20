@@ -1,0 +1,136 @@
+.form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 20px 20px 0 0;
+    border: 1px solid #ccc;
+    outline: none;
+    padding-left: 20px; /* Space for the search button */
+    padding-right: 50px; /* Adjusted to provide space for the clear button on the right */
+}
+
+.search-button {
+    position: absolute;
+    left: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.search-button i {
+    font-size: 20px; /* Adjust as needed */
+}
+
+.clear-button {
+    position: absolute;
+    right: 10px; /* Adjusted to position the button to the right */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clear-button i {
+    font-size: 20px; /* Adjust as needed */
+}
+.dataResult {
+    background-color: #fff;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+
+}
+
+.list {
+    padding: 10px;
+    cursor: pointer;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis */
+}
+
+.list:hover {
+    background-color: #f1f1f1;
+}
+.popular-answer {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #94ea83;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 600px; /* Adjust as needed */
+    margin: 20px auto; /* Center the answer box */
+}
+.answer {
+    background: linear-gradient(to right, #f0f4c3, #e1f5fe);
+    border: 2px solid #0288d1;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.answer h3 {
+    font-size: 1.5em;
+    color: #0288d1;
+    margin-bottom: 10px;
+}
+
+.answer p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #424242;
+}
+/* Add this to your CSS file */
+.highlight {
+    color: blue; /* or any color you want */
+}
+.remove-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.history-item {
+    color: #0056b3; /* Change to your desired color */
+    display: flex;
+    align-items: center;
+}
+
+.history-item .fa-clock {
+    margin-right: 10px;
+    color: #0056b3; /* Match the color of the text */
+}
+
+.related-questions {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 600px; /* Adjust as needed */
+    margin: 20px auto; /* Center the related questions box */
+}

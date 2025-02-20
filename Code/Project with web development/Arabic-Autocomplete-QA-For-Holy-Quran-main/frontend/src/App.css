@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background: #d1d5db;
+}
+.height{
+  height: 100vh;
+}
+.form{
+  margin-top:50px;
+  position: relative;
+}
+.form .fa-search{
+  position: absolute;
+  color: #9ca3af;
+}
+.form span{
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+
+}
+.left-pan{
+  padding-left: 7px;
+}
+.left-pan i{
+ padding-left: 10px;
+}
+.form-input{
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+.form-input:focus{
+  box-shadow: none;
+  border:none;
+}
+
+.list{
+    background-color:#ffffff; 
+    padding-top: 20px;padding-left:20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.popular-questions{
+  padding-top: 20px;
+
+}
+.popular-questions h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+.popular-questions p{
+  font-size: 15px;
+  color: #9ca3af;
+}
+.popular-questions .list{
+  padding-top: 10px;
+}
+.popular-questions .list p{
+  font-size: 15px;
+  color: #9ca3af;
+}
+.popular-questions .list h4{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.App {
+  text-align: center;
+}
+
+.popular-questions {
+  margin-top: 20px;
+}
+
+.popular-questions-container {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 80%;
+  margin: 10px auto; /* Increased top margin */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: white;
+  max-height: 300px; /* Adjust this value as needed */
+  overflow-y: auto; /* Enables vertical scrolling */
+}
+
+.popular-questions {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Ensures no extra space inside the container */
+}
+
+.question {
+  cursor: pointer;
+  padding: 8px 12px;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+
+}
+
+.question:last-child {
+  border-bottom: none;
+}
+
+.question:hover {
+  background-color: #f4f4f4;
+}
+
+.popular-answer {
+  display: none;
+  margin-top: 5px;
+  color: #666;
+}
+.App h2 {
+  margin-top: 170px; /* Adjust this value as needed */
+  color: #333; /* Example to make text more visible */
+}
+.question:hover .popular-answer {
+  display: block;
+}
