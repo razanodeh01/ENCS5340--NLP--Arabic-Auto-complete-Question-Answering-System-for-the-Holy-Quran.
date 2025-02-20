@@ -1,4 +1,4 @@
-" # ENCS5340--NLP--Arabic-Auto-complete-Question-Answering-System-for-the-Holy-Quran." 
+
 ## 📌 Project Overview
 This project introduces a Natural Language Processing (NLP) system designed to enhance interaction with Quranic Arabic. It provides auto-completion for Arabic text and a question-answering system that extracts relevant answers from the Quran.
 
