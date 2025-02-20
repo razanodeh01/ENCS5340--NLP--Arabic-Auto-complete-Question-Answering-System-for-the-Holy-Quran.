@@ -1,5 +1,5 @@
 " # ENCS5340--NLP--Arabic-Auto-complete-Question-Answering-System-for-the-Holy-Quran." 
-# 📌 Project Overview
+## 📌 Project Overview
 This project introduces a Natural Language Processing (NLP) system designed to enhance interaction with Quranic Arabic. It provides auto-completion for Arabic text and a question-answering system that extracts relevant answers from the Quran.
 
 🔹 **Auto-Completion Module** - Predicts words/phrases in Quranic Arabic.
@@ -10,7 +10,7 @@ This project introduces a Natural Language Processing (NLP) system designed to e
 
 🔹 **Contextual Understanding** - Ensures answers align with Quranic meanings.
 
-# 🚀 Key Features
+## 🚀 Key Features
 ✅ Predicts Next Words in Quranic Arabic.
 
 ✅ Retrieves Exact Answers from the Quran.
@@ -19,7 +19,7 @@ This project introduces a Natural Language Processing (NLP) system designed to e
 
 ✅ Optimized for Accuracy & Speed.
 
-# 🧠 Models & Methodology
+## 🧠 Models & Methodology
 This project leverages cutting-edge NLP techniques to provide Arabic auto-completion and question-answering for the Holy Quran.
 
 1️⃣ **N-gram Model (*for Auto-completion*)**
@@ -41,7 +41,7 @@ This project leverages cutting-edge NLP techniques to provide Arabic auto-comple
   - Extracts most relevant answers from Quranic text.
   - Ranks answers based on query similarity.
 
-# 🔥 How It Works
+## 🔥 How It Works
 1️⃣ User starts typing a question or phrase in Arabic.
 
 2️⃣ Auto-complete suggests the next words.
@@ -51,7 +51,7 @@ This project leverages cutting-edge NLP techniques to provide Arabic auto-comple
 4️⃣ Context-aware NLP models ensure accuracy.
 
 
-# 🎥 Demo: How It Works
+## 🎥 Demo: How It Works
 Watch the real-time demo of our Auto-complete & Quranic Q&A System:
 
 https://github.com/user-attachments/assets/c9c6a31e-54a7-4bb2-8196-7cb3330a66b5
